@@ -1,0 +1,49 @@
+html {
+  font-size: 100%;
+}
+
+body {
+  background-color: lightgrey;
+  padding: 0;
+  margin: 0;
+font-family: times, sans-serif;
+}
+
+header {
+background-color: #1e90ffff
+
+}
+
+header img {
+  height: 25%;
+
+}
+
+nav ul{
+  list-style-type: none;
+
+}
+
+nav ul li {
+  background-color: #1e90ffff;
+  border: 1px solid #bb4430;
+  padding: 1em 4em 1em 4em;
+}
+
+nav ul li a {
+  color: #ffff;
+  text-transform: uppercase;
+  text-decoration: none;
+
+}
+
+nav ul li a:hover {
+  color: #000;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+footer {
+  background-color:#1e90ffff;
+  padding: 1em 0em 0em 0em;
+}
