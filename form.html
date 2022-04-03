@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <title>Supplement Question Form</title>
+
+<style>
+
+
+
+.basic-form label {
+color:blue;
+font-family: monospace;
+font-weight: bold;
+
+}
+
+.basic-form legend {
+color:blue;
+font-weight: bold;
+}
+
+.basic-form input {
+background-color: lightgrey;
+font-size: 100%;
+
+
+}
+
+</style>
+
+
+
+<body>
+
+
+<h2>Login</h2>
+
+  <form method="post" class="basic-form">
+    <label for="name1">Enter First and Last Name:</label>
+    <input type="text" name="name1" id="name1" required>
+    <br>
+    <label for="email1">Enter Email:</label>
+    <input type="text" name="email1" id="email1" required>
+    <br>
+    <input type="submit" value="subscribe">
+  </form>
+
+  <h2>Sign Up</h2>
+
+    <form method="post" class="basic-form">
+      <label for="name2">Enter First and Last Name: </label>
+      <input type="text" name="name2" id="name2" required>
+      <br>
+      <label for="email2">Enter Email:</label>
+      <input type="text" name="email2" id="email2" required>
+      <br>
+      <input type="submit" value="subscribe">
+    </form>
+
+<h2>GET HELP</h2>
+
+  <form method="get" class="basic-form">
+    <fieldset>
+      <legend>What do you have questions about?</legend>
+
+      <input type="radio" name="Supplements" id="supplements">
+      <label for="supplements">Supplements</label><br/>
+
+      <input type="radio" name="workouts" id="workouts">
+      <label for="workouts">Workouts</label>
+
+    </fieldset>
+  </form>
+
+<h2></h2>
+<form method="post" class="basic-form">
+  <label for="thoughts">Ask your question here. Will respond as soon as possible. </label>
+  <textarea name="thoughts" id="thoughts" rows="10" cols="80">enter here</textarea>
+  </form>
+
+  </body>
+  </html>
