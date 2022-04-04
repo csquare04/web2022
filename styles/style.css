@@ -12,7 +12,7 @@ body {
   font-family: times, sans-serif;
   min-height: 100%;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px));
+
 
 
 }
@@ -106,7 +106,7 @@ padding: 2em 0 0 2em;
 }
 
 #bupump img {
- padding: 2em 2em 2 2rem;
+ padding: 2em 2em 2em 2rem;
  display: grid;
 
 }
