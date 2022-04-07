@@ -11,7 +11,7 @@ body {
   margin: 0;
   font-family: times, sans-serif;
   min-height: 100%;
-  display: grid;
+
 
 
 
@@ -30,11 +30,8 @@ header {
 
 header img {
   float: right;
-  object-fit: fill;
-  width: 40%;
   max-height: 40%;
   border-radius: 10px;
-  display: grid;
 
 }
 
